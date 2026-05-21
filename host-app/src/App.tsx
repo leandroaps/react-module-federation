@@ -1,0 +1,21 @@
+import "./App.css";
+import { RemoteComponentWrapper } from "./components/RemoteComponentWrapper";
+import "./index.css";
+
+function App() {
+  return (
+    <>
+      <div className="px-6 border-2">
+        <div className="flex justify-center items-center"></div>
+        <h1 className="text-2xl">Host Application</h1>
+        <p>
+          Welcome to the Host application, below are the components pulled from
+          the remote application
+        </p>
+        <RemoteComponentWrapper />
+      </div>
+    </>
+  );
+}
+
+export default App;
