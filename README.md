@@ -2,15 +2,13 @@
 
 ## How to run
 
-In your terminal
-
+**In your terminal**
 Go to host-app
 cd ../host-appcd ../host-app
 npm run serve
 Open localhost:5000
 
-In another terminal
-
+**In another terminal**
 Go ro remote-app
 cd ./remote-app
 npm run serve
